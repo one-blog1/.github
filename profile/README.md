@@ -11,6 +11,23 @@
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
 
+[![version](https://img.shields.io/github/v/tag/one-blog1/one_blog?label=version&sort=date&color=1f2430)](https://github.com/one-blog1/one-blog_docs/releases)
+
+## 화면
+
+<p>
+  <img src="https://raw.githubusercontent.com/one-blog1/one-blog_docs/main/assets/screenshots/main.png" alt="메인: 사진 배너, 내 블로그, 내 블로그의 새 글" width="76%">
+  <img src="https://raw.githubusercontent.com/one-blog1/one-blog_docs/main/assets/screenshots/main-mobile.png" alt="휴대폰 메인" width="21%">
+</p>
+
+| 블로그 | 글 |
+|---|---|
+| <img src="https://raw.githubusercontent.com/one-blog1/one-blog_docs/main/assets/screenshots/blog.png" alt="블로그: 표지, 소개, 카테고리, 글 목록"> | <img src="https://raw.githubusercontent.com/one-blog1/one-blog_docs/main/assets/screenshots/post.png" alt="글: 본문, 사진, 좋아요, 댓글과 답글"> |
+
+<img src="https://raw.githubusercontent.com/one-blog1/one-blog_docs/main/assets/screenshots/admin-banners.png" alt="관리자: 메인 배너 관리 (자동 배너 설정과 광고·이벤트 배너)">
+
+<sub>화면은 예시 데이터로 찍었습니다.</sub>
+
 ## 주요 기능
 
 | 영역 | 기능 |
@@ -38,7 +55,11 @@ main에 버전을 올려 합침 → CI(전체 테스트, 실행 확인) → Dock
 - **명세부터**: 기능마다 [GitHub Spec Kit](https://github.com/github/spec-kit)으로 명세 → 계획 → 작업 → 구현 순서로 진행하고, 요구사항 번호를 근거로 남깁니다.
 - **DB 설계**: ERD를 먼저 고치고, 테이블은 Flyway 마이그레이션으로 추가합니다.
 - **브랜치**: `feature/*` → `develop` → (버전을 올릴 때) `main`. 운영 버그는 `hotfix/*`로 고쳐 main과 develop에 함께 반영합니다.
-- **버전**: 배포할 때마다 0.01씩 올리고, 버전마다 릴리즈 노트를 남깁니다.
+
+## 버전과 릴리즈 노트
+
+- 배포할 때마다 버전을 0.01씩 올립니다 (0.16 → 0.17 → …). 지금 운영 중인 버전은 위의 `version` 배지에 자동으로 표시됩니다.
+- 버전마다 무엇이 바뀌었는지는 [릴리즈 노트](https://github.com/one-blog1/one-blog_docs/releases)에서 볼 수 있습니다.
 
 ## 저장소
 

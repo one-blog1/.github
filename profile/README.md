@@ -13,21 +13,13 @@
 
 [![version](https://img.shields.io/github/v/tag/one-blog1/one_blog?label=version&sort=date&color=1f2430)](https://github.com/one-blog1/one-blog_docs/releases)
 
+[![version](https://img.shields.io/github/v/tag/one-blog1/one_blog?label=version&sort=date&color=1f2430)](https://github.com/one-blog1/one-blog_docs/releases)
+
 ## 화면
 
-<p>
-  <img src="https://raw.githubusercontent.com/one-blog1/one-blog_docs/main/assets/screenshots/main.png" alt="메인: 사진 배너, 내 블로그, 내 블로그의 새 글" width="76%">
-  <img src="https://raw.githubusercontent.com/one-blog1/one-blog_docs/main/assets/screenshots/main-mobile.png" alt="휴대폰 메인" width="21%">
-</p>
+<img src="https://raw.githubusercontent.com/one-blog1/one-blog_docs/main/assets/screenshots/main-live.png" alt="One Blog 메인: 공지, 사진 배너, 읽을 글">
 
-| 블로그 | 글 |
-|---|---|
-| <img src="https://raw.githubusercontent.com/one-blog1/one-blog_docs/main/assets/screenshots/blog.png" alt="블로그: 표지, 소개, 카테고리, 글 목록"> | <img src="https://raw.githubusercontent.com/one-blog1/one-blog_docs/main/assets/screenshots/post.png" alt="글: 본문, 사진, 좋아요, 댓글과 답글"> |
-
-<img src="https://raw.githubusercontent.com/one-blog1/one-blog_docs/main/assets/screenshots/admin-banners.png" alt="관리자: 메인 배너 관리 (자동 배너 설정과 광고·이벤트 배너)">
-
-<sub>화면은 예시 데이터로 찍었습니다.</sub>
-
+<img src="https://raw.githubusercontent.com/one-blog1/one-blog_docs/main/assets/screenshots/post.png" alt="글 화면: 본문, 사진, 좋아요, 댓글과 답글" width="60%">
 ## 주요 기능
 
 | 영역 | 기능 |
